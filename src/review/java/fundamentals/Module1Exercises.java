@@ -42,6 +42,7 @@ public class Module1Exercises {
         System.out.println();
         for (DcComic dc3 : inventory.getDcList()) {
             System.out.println(dc3.getIssueNumber());
+            System.out.println();
 
         }
     }
