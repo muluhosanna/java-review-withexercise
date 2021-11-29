@@ -41,7 +41,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
-  <component name="RunManager" selected="Application.Module1_5Exercise">
+  <component name="RunManager" selected="Application.Module1Exercises">
     <configuration name="ControlFlowAndOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="review.java.fundamentals.ControlFlowAndOperators" />
       <module name="java-fundamentals-review" />
@@ -109,9 +109,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Module1Exercises" />
         <item itemvalue="Application.Module1_5Exercise" />
         <item itemvalue="Application.Module1_5Lessons" />
-        <item itemvalue="Application.Module1Exercises" />
         <item itemvalue="Application.ControlFlowAndOperators" />
         <item itemvalue="Application.Module1_4Exercise" />
       </list>

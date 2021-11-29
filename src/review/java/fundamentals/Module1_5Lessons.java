@@ -4,6 +4,11 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.PriorityQueue;
+/*Under this lesson we will cover collection frame work
+*Hashset,hashMap,Lists,ArrayLists,LeankedList,Stack,queue,vector,
+*
+
+ */
 
 public class Module1_5Lessons {
     public static void main(String[] arg){

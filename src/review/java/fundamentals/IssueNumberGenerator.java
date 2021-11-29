@@ -4,7 +4,7 @@ public class IssueNumberGenerator {
     private static  IssueNumberGenerator issue;
     private static int id = 970076;
     private static String initial;
-    public static synchronized IssueNumberGenerator getInstance(){
+    public synchronized IssueNumberGenerator getInstance(){//let us skip static
         if (issue==null){
             issue = new IssueNumberGenerator();
         }

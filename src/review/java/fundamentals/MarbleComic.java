@@ -18,10 +18,20 @@ public class MarbleComic extends ComicBooks{
 
     }
   //  @Override
-    //public void setIssueNumber(){
-      //  this.issueNumber = issueNumber;
-    //}
-
+    public void setIssueNumber(){
+       this.issueNumber = issueNumber;
+    }
+  public boolean getIsTellingPastHistory(){
+      return true;
+  }
+    @Override
+    public boolean getIsItAllAboutScience(){
+        return  false;
+    }
+    @Override
+    public boolean getDoesIttransferKnowledge(){
+        return true;
+    }
 
     @Override
     public int getId() {

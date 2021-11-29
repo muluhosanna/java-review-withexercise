@@ -32,6 +32,9 @@ public abstract class ComicBooks implements ComicBookInterface{
     }
 
     //protected abstract String issueNumber();
+   public abstract boolean getIsTellingPastHistory();
+    public abstract boolean getIsItAllAboutScience();
+    public abstract boolean getDoesIttransferKnowledge();
 
     public void setIssueNumber(String issueNumber){
         this.issueNumber =issueNumber;

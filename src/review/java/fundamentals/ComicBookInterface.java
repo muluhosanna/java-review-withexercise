@@ -11,6 +11,9 @@ public interface ComicBookInterface {
     //void setInitial();
    // void setIssueNumber();
     int getId();
+    boolean getIsTellingPastHistory();
+    boolean getIsItAllAboutScience();
+    boolean getDoesIttransferKnowledge();
     //String getVoume();
    // String getVolume();
    // String getId();

@@ -11,6 +11,17 @@ public class DcComic extends ComicBooks{
         return "DC";
     }
 
+    public boolean getIsTellingPastHistory(){
+        return true;
+    }
+    @Override
+    public boolean getIsItAllAboutScience(){
+        return  false;
+    }
+    @Override
+    public boolean getDoesIttransferKnowledge(){
+        return true;
+    }
     @Override
     public void setTitle() {
 

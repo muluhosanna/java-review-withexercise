@@ -9,6 +9,20 @@ public class ImageComic extends ComicBooks{
     public String getInitial(){
         return "IM";
     }
+    @Override
+
+
+    public boolean getIsTellingPastHistory(){
+        return true;
+    }
+    @Override
+    public boolean getIsItAllAboutScience(){
+        return  false;
+    }
+    @Override
+    public boolean getDoesIttransferKnowledge(){
+        return true;
+    }
 
 
     @Override
