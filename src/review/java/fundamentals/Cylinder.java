@@ -37,4 +37,11 @@ public class Cylinder extends SolidFigures{
         return radius;
     }
 
+    @Override
+    public int compare(SolidFigures o1, SolidFigures o2) {
+
+        return 0;
+    }
+
+
 }

@@ -41,7 +41,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
-  <component name="RunManager" selected="Application.Module1Exercises">
+  <component name="RunManager" selected="Application.Module1_5Lessons">
     <configuration name="ControlFlowAndOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="review.java.fundamentals.ControlFlowAndOperators" />
       <module name="java-fundamentals-review" />
@@ -109,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Module1Exercises" />
-        <item itemvalue="Application.Module1_5Exercise" />
         <item itemvalue="Application.Module1_5Lessons" />
-        <item itemvalue="Application.ControlFlowAndOperators" />
+        <item itemvalue="Application.Module1_5Exercise" />
+        <item itemvalue="Application.Module1Exercises" />
         <item itemvalue="Application.Module1_4Exercise" />
+        <item itemvalue="Application.ControlFlowAndOperators" />
       </list>
     </recent_temporary>
   </component>
@@ -154,6 +154,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.io.IOException" package="java.io" />
           <option name="timeStamp" value="3" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="4" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>

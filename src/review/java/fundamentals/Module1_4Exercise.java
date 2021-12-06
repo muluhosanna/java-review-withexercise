@@ -72,7 +72,7 @@ public class Module1_4Exercise {
         if (age > 20) {
             throw new IllegalArgumentException("the person can not drink coffee");
         } else {
-            System.out.println("it will be possibl");
+            System.out.println("it will be possible");
 
         }
 
@@ -99,11 +99,11 @@ public class Module1_4Exercise {
             int a=5;
             int b=0;
             int result =a/b;
-            System.out.println("the quient" +result);
+            System.out.println("the quotient" +result);
         }catch (ArithmeticException ex){
             System.out.println("not possible" +ex.getMessage());
         }finally {
-            System.out.println("excute the final block" );
+            System.out.println("execute the final block" );
 
         }
         }
@@ -112,10 +112,10 @@ public class Module1_4Exercise {
             throw (new ArithmeticException("Demo"));//throw is used to throw Exception
             //throw (new IllegalArgumentException());
         }catch (ArithmeticException e){// catch used to the Exception
-            System.out.println("Excution exception");
+            System.out.println("Execution exception");
 
         }finally {
-            System.out.println("print what evere");
+            System.out.println("print what ever");
         }
         }
         public static void send(int destination,String data,String partner)throws IOException,FileNotFoundException{

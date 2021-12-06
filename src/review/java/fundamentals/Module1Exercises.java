@@ -24,7 +24,28 @@ public class Module1Exercises {
         System.out.println(PrimeAndEvenNumbers.num2);
         PrimeAndEvenNumbers.Inner.method1(2);
         moreOnComicInventory();
+        //moreOnComicStore();
+        //method2();
 
+
+    }
+    public static void method2(){
+        int[]array = new int[21];
+        for(int i =0;i <=20;i++){
+            if(i==0){
+                array[0]=0;
+            }else if(i==1){
+                array[1] =1;
+            }else if(i>=2){
+                array[i] =array[i-1] +array[i-2];
+            }
+            System.out.print(array[i]+ " ") ;
+        }
+        System.out.println();
+    }
+    public static void  moreOnComicStore(){
+        ComicBookStore store = new ComicBookStore();
+        store.message();
 
     }
 

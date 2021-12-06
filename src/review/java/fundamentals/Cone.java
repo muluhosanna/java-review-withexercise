@@ -33,4 +33,10 @@ public class Cone extends SolidFigures{
     public double getRadius(){
         return radius;
     }
+
+    @Override
+    public int compare(SolidFigures o1, SolidFigures o2) {
+        return 0;
+    }
+
 }

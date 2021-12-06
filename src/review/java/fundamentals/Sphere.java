@@ -23,4 +23,11 @@ public class Sphere extends SolidFigures{
         System.out.println("the volume of the Sphere:" + volume);
 
     }
+
+    @Override
+    public int compare(SolidFigures o1, SolidFigures o2) {
+
+        return 0;
+    }
+
 }

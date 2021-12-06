@@ -24,7 +24,7 @@ public class Module1_5Exercise {
     }
 
     public static void treesetMethod() {
-        Set<Student> set = new TreeSet<Student>();//Treeset extends Sotrtedset
+        Set<Student> set = new TreeSet<Student>();//Tree set extends Sotrted set
         Student st1 = new Student("mulu", 34);
         Student st2 = new Student("kebede", 22);
         Student st3 = new Student("mamo", 56);
@@ -63,6 +63,7 @@ public class Module1_5Exercise {
         studentVector.add(st3);
         studentVector.add(st4);
         studentVector.add(st5);
+        //System.out.println(studentVector);
         studentVector.contains(st1);
         studentVector.capacity();
         System.out.println(studentVector.capacity());
