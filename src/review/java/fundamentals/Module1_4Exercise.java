@@ -32,8 +32,8 @@ public class Module1_4Exercise {
                 System.out.println("it is leap year");
             } else if (length!=4){
                 System.out.println("the number you entered is in valid");
-
-
+                leapYear();
+                
             }else if (length==4&&k%4!=0){
                 System.out.println("it is not leap year");
             }

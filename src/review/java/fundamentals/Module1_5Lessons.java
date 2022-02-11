@@ -10,12 +10,12 @@ import java.util.*;
 public class Module1_5Lessons {
     public static void main(String[] arg){
        // hasSet();
-        //arrayListMethod();
+       // arrayListMethod();
        // marbleComicBookMethod();
       //  methodsOnHasSet();
         //anotherMethod();
         //queueMethod();
-       // collectionToArray();
+       //collectionToArray();
 
 
 
@@ -29,7 +29,7 @@ public class Module1_5Lessons {
         list.add("Toyota");
         Object hasSet[] =list.toArray();
         for (int i =0;i<list.size();i++){
-            System.out.println(hasSet[i]);
+           // System.out.println(hasSet[i]);
         }
        list. forEach (e->System.out.println(e));//we can use for ech loop,we can use for loop,we can use iterator.
        // for(String i:list){
@@ -39,6 +39,7 @@ public class Module1_5Lessons {
                 System.out.println(it.next());
             }
         }
+
         public static void arrayListMethod(){
             ArrayList<String>listarray =new ArrayList<>();
             listarray.add("fundamentals");
@@ -216,7 +217,6 @@ public class Module1_5Lessons {
                 /*
                  * we can change the given collection toArray method in two ways
                  * one is just as an object x[] = name1.toArray()
-                 *
                  * and create for loop
                  * second is by the object typ that is Type[]name2 = new Type[name1.size()];
                  * name.toArray(name2);
@@ -259,7 +259,7 @@ public class Module1_5Lessons {
                 Student studen1 = new Student("Alem",34);
                 Student stdent2 = new Student("Ayele",42);
                 Student student3= new Student("Kidus",69);
-                Student student4 = new Student("Dest",22);
+                Student student4 = new Student("Desta",22);
                 studentHashSet.add(studen1);
                 studentHashSet.add(stdent2);
                 studentHashSet.add(student3);
@@ -268,8 +268,29 @@ public class Module1_5Lessons {
                 studentHashSet.toArray(m);
                 for (int i= 0;i<studentHashSet.size();i++){
                     System.out.println(m[i].getName()+" " + m[i].getAge());
+                    System.out.println("after");
+                    System.out.println(m[0].getName()+m[0].getAge());
                    // System.out.println(m[2].getAge());
+
+
                 }
+                System.out.println("After Hashset");
+                ArrayList<Student>listStudent = new ArrayList<>();
+                listStudent.add(studen1);
+                listStudent.add(stdent2);
+                listStudent.add(student3);
+                listStudent.add(student4);
+                Student[] list45= new Student[listStudent.size()];
+                listStudent.toArray(list45);
+                for (int i=0;i<listStudent.size();i++){
+                   System.out.println(list45[i].getName()+ " " + list45[i].getAge());
+                }
+                System.out.println("before the array list of integres");
+                Student[]array ={studen1,stdent2,student3,student4};
+                for (int i =0;i<4;i++){
+                    System.out.println(array[i].getName() +" "+ array[i].getAge());
+                }
+                System.out.println("before the array");
                 ArrayList<Integer>arrayList  = new ArrayList<>();
                 arrayList.add(1);
                 arrayList.add(2);

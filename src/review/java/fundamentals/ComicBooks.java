@@ -1,6 +1,6 @@
 package review.java.fundamentals;
 
-public abstract class ComicBooks implements ComicBookInterface{
+public abstract  class ComicBooks  implements ComicBookInterface{
     protected String title;
     protected String author;
     protected String character;

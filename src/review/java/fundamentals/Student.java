@@ -37,6 +37,15 @@ public class Student implements Comparable<Student> {
     }
 
     @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", gender='" + gender + '\'' +
+                ", age=" + age +
+                '}';
+    }
+
+    @Override
     public int compareTo(Student stu) {
         if (this.age == stu.getAge()) {
             return 0;

@@ -25,7 +25,7 @@ public class PrimeAndEvenNumbers {
 
     }
 
-    int numberOfprimes;//display the first 50 prime nu bers
+    int numberOfprimes;//display the first 50 prime numbers
     final int numberOfPrimesPerLine = 10;// the number of prime numbers perline
     int number = 2; //the first number to be tested
     int divisor = 2;
